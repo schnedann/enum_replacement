@@ -55,3 +55,9 @@ Let's summarize:
 * prevents ugly casts
 * utilizing normal Integers as base type you can do all normal operations for integers
 * is_value_in_enum() is now easy to implement
+
+PS: Others have also seen the need to do something with enums to make em more useable:
+https://github.com/Neargye/magic_enum
+this is a much bigger effort
+
+PPS: with upcomming C++23, which hopefully has metaclasses, my solution can be implemented much more generic and the additional functionality of "magic enum" also can be implemented the same way there
